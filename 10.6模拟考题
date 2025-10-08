@@ -1,0 +1,161 @@
+What is cloud computing?
+Answer: Delivering computing services over the internet
+Knowledge Point: Cloud computing (云计算) is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale.
+
+Which of the following is NOT a type of cloud deployment?
+Answer: Distributed cloud
+Knowledge Point: The three main cloud deployment models (云部署模型) are:
+
+Public cloud (公有云)
+Private cloud (私有云)
+Hybrid cloud (混合云)
+
+"Distributed cloud" is not a standard deployment type.
+
+Which cloud service model provides only hardware resources like servers and storage?
+Answer: IaaS
+Knowledge Point: IaaS (Infrastructure as a Service/基础设施即服务) provides virtualized computing resources over the internet, including servers, storage, and networking hardware. The three main service models are:
+
+IaaS - Infrastructure as a Service
+PaaS - Platform as a Service
+SaaS - Software as a Service
+
+
+Which of these is an example of SaaS?
+Answer: Google Docs
+Knowledge Point: SaaS (Software as a Service/软件即服务) delivers software applications over the internet. Examples include:
+
+Google Docs (正确答案)
+AWS EC2 is IaaS
+Microsoft Azure Virtual Machines is IaaS
+Local installation of Photoshop is not cloud-based
+
+
+What does "scalability" mean in cloud computing?
+Answer: Ability to increase or decrease resources as needed
+Knowledge Point: Scalability (可扩展性) refers to the capability of a system to handle growing amounts of work by adding resources. It includes:
+
+Vertical scaling (垂直扩展) - adding more power to existing machines
+Horizontal scaling (水平扩展) - adding more machines
+
+
+What is the primary advantage of using a hybrid cloud?
+Answer: Cost efficiency and flexibility
+Knowledge Point: Hybrid cloud (混合云) combines public and private clouds, allowing data and applications to be shared between them. Key benefits include:
+
+Cost optimization (成本优化)
+Flexibility (灵活性)
+Balance between control and convenience
+Ability to keep sensitive data on-premises while using public cloud for less critical workloads
+
+
+Which of the following is a key feature of PaaS?
+Answer: Running applications without managing infrastructure
+Knowledge Point: PaaS (Platform as a Service/平台即服务) provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining infrastructure. Key features:
+
+No infrastructure management needed
+Focus on application development
+Built-in development tools and databases
+
+
+What is a "region" in cloud computing?
+Answer: A geographical area with multiple data centers
+Knowledge Point: Region (区域) in cloud computing refers to a specific geographical location where cloud providers have multiple data centers. Key concepts:
+
+Each region contains multiple availability zones (可用区)
+Provides geographic redundancy (地理冗余)
+Helps with compliance and latency requirements
+
+
+Which of these is a common cloud security concern?
+Answer: All of the above
+Knowledge Point: Common cloud security concerns (云安全问题) include:
+
+Vendor lock-in (供应商锁定)
+Unauthorized access (未授权访问)
+Data breaches (数据泄露)
+All are legitimate security concerns that need to be addressed
+
+
+What does "elasticity" in cloud computing allow you to do?
+Answer: Automatically adjust resources to match demand
+Knowledge Point: Elasticity (弹性) is the ability to automatically scale resources up or down based on current demand. Key features:
+
+Dynamic resource allocation (动态资源分配)
+Auto-scaling (自动扩缩容)
+Pay only for what you use
+Different from scalability - elasticity is automatic and immediate
+
+
+Which of the following is a benefit of using cloud computing?
+Answer: All
+Knowledge Point: Cloud computing benefits (云计算优势) include:
+
+Reduced IT costs (降低IT成本) - no need for physical infrastructure
+On-demand access to resources (按需访问资源) - provision resources when needed
+Faster deployment of applications (更快的应用部署) - quick setup and scaling
+All of these are key benefits
+
+
+In AWS, what is EC2 primarily used for?
+Answer: Virtual server hosting
+Knowledge Point: AWS EC2 (Amazon Elastic Compute Cloud) is primarily used for:
+
+Virtual server hosting (虚拟服务器托管)
+Provides resizable compute capacity
+IaaS offering
+Not specifically for database, storage, or AI services (though it can support those applications)
+
+
+Which cloud computing characteristic describes "pay only for what you use"?
+Answer: Metered service
+Knowledge Point: Metered service (计量服务) or pay-as-you-go pricing model:
+
+Usage-based billing (按使用量计费)
+Only pay for consumed resources
+No upfront costs
+Different from multi-tenancy (which is about resource sharing)
+
+
+What does SLA stand for in cloud computing?
+Answer: Service Level Agreement
+Knowledge Point: SLA (Service Level Agreement/服务级别协议) defines:
+
+Expected service availability (服务可用性)
+Performance metrics (性能指标)
+Responsibilities of both provider and customer
+Compensation for service failures
+
+
+What is a key advantage of using Infrastructure as Code (IaC)?
+Answer: Automating infrastructure deployment and ensuring consistency
+Knowledge Point: IaC (Infrastructure as Code/基础设施即代码) benefits:
+
+Automation (自动化) - eliminates manual configuration
+Consistency (一致性) - same configuration every time
+Version control (版本控制)
+Repeatability (可重复性)
+Examples: Terraform, CloudFormation, Ansible
+
+
+Which of the following best describes serverless computing?
+Answer: Cloud provider automatically manages server allocation
+Knowledge Point: Serverless computing (无服务器计算) characteristics:
+
+No server management required (无需管理服务器)
+Automatic scaling (自动扩展)
+Pay per execution (按执行次数付费)
+Examples: AWS Lambda, Azure Functions
+Note: Servers still exist, but are abstracted away from the developer
+
+
+In a multi-cloud strategy, what is a key challenge organizations face?
+Answer: Integrating and managing multiple platforms
+Knowledge Point: Multi-cloud strategy challenges (多云策略挑战):
+
+Integration complexity (集成复杂性)
+Managing different platforms and APIs
+Skills requirements for multiple clouds
+Data transfer and interoperability
+Different pricing models and tools
+Note: Multi-cloud actually helps avoid vendor lock-in, not cause it
